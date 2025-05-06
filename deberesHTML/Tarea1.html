@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La fruteria</title>
+</head>
+<style>
+    body{
+        background-color: rgb(150, 245, 245);
+    }
+</style>
+<body>
+    <header id="cabecera" title="cabecera principal del titulo">
+    <h1>Frutería La Esquina</h1>
+    <h2>Acerca de nuestras frutas:</h2>
+    </header>
+    <nav class="menu" title="Frutas">
+    <ul>
+        <li> <a href="frutas.html" target="_blank">Frutas</a></li>
+        <li> <a href="vegetales.html" target="_blank">Vegetales</a></li>
+        <li> <a href="frutosSecos.html" target="_blank">Frutos secos</a></li>
+    </ul>
+    </nav>
+    <main id="contenido principal">
+        <section id="seccion historia fruteria" title="seccion fruteria">
+        <article id="Articulo 1" title="Articulo sobre la historia de la fruteria">
+            <h2>Nuestra Historia</h2>
+            <p>
+                Todo comenzó con una caja de manzanas frescas y un sueño. En el corazón de un pequeño barrio lleno de vida, nació Frutería La Esquina con una misión clara: ofrecer frutas frescas, sabrosas y de calidad, como las que disfrutaban nuestros abuelos directamente del árbol.
+Fundada en 2015 por la familia Martínez, nuestra frutería empezó como un modesto local de barrio con solo unos pocos productos de temporada. Pero gracias al cariño de nuestros vecinos, el compromiso con los agricultores locales y una atención siempre cercana, fuimos creciendo poco a poco hasta convertirnos en un punto de referencia para quienes buscan frutas y verduras frescas, saludables y con sabor auténtico.
+Hoy, seguimos creyendo que lo natural sabe mejor. Trabajamos cada día para traer lo mejor del campo a tu mesa, seleccionando cuidadosamente cada pieza y colaborando con productores comprometidos con la sostenibilidad y la agricultura responsable.
+En Frutería La Esquina no solo vendemos fruta: compartimos momentos, recetas, consejos y sonrisas. Queremos que cada cliente se sienta parte de esta historia que aún seguimos escribiendo, fruta a fruta.
+            </p>
+        </article>
+        </section>
+        <img src="./imagenes/fruteria.jpeg" alt="Futeria" width="300">
+        <img src="./imagenes/foto.jpeg" alt="Foto" width="300">
+        <img src="./imagenes/futas.jpeg" alt="Futas" width="300"> 
+
+        <section id="seccion historia" title="Beneficios">
+            <article id="Articulo 2" title="Beneficio Frutas">
+                <h2>¿Que beneficios tiene comer frutas?</h2>
+                <p>
+                    Comer frutas ofrece numerosos beneficios para la salud, ya que son una fuente rica de vitaminas, minerales y antioxidantes esenciales. Estas ayudan a fortalecer el sistema inmunológico, mejorar la digestión gracias a su alto contenido de fibra, y mantener la piel saludable. Además, las frutas proporcionan energía natural y son bajas en calorías, lo que las convierte en un aliado ideal para el control de peso. También protegen la salud cardiovascular al reducir el riesgo de enfermedades del corazón y mejorar la circulación. En resumen, incluir frutas en tu dieta diaria no solo mejora tu bienestar general, sino que también contribuye a prevenir enfermedades y a mantener tu cuerpo hidratado y lleno de vitalidad.
+                </p>
+                <video width="300" controls>
+                    <source src="./videos/video.mp4" type="video/mp4">
+                </video>
+    </main>
+    <form action="" id="RegistroDeOpiniones">
+        <h2>Caja de opiniones</h2>
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required minlength="2" maxlength="20" pattern="[A-Za-z]">
+        </div>
+        <br>
+        <div>
+            <label for="correo">Correo:</label>
+            <input type="email" name="correo" id="correo">
+        </div>
+        <br>
+        <div>
+            <label for="opinion">Opinion:</label>
+            <textarea name="opinion" id="opinion" cols="20" rows="10"></textarea>
+        </div>
+        <br>
+        <button value="submit">Enviar</button>
+    </form>
+    <footer id="pie de pagina" title="Pie de pagina">
+        Correo: FruteriaLaEsquina@gmail.com
+        <br>
+        <br>
+        celular: 0995500128
+    </footer>
+</body>
+</html>
